@@ -38,11 +38,11 @@ const teamMembers = [
 ];
 
 const memberTeam = (member) => {
-  const memberInfo = `<div class="col-4 d-flex">
+  const memberInfo = `<div class="col-xl-4 col-md-6 col-sm-12 d-flex">
           <div class="col-4 p-0">
             <img class="img-fluid" src="./${member['img']}" alt="">
           </div>
-          <div class="col-8 bg-dark text-light ps-4 lh-lg py-3">
+          <div class="col-8 bg-dark text-light ps-4 lh-lg py-2">
             <h4 class="card-title">${member['name']}</h4>
             <p class="card-text m-0">${member['role']}</p>
             <p class="card-text text-primary">${member['email']}</p>
